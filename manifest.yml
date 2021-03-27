@@ -1,0 +1,8 @@
+---
+applications:
+- name: rest-service-greeting
+  memory: 256M
+  instances: 1
+  host: rest-service-greeting
+  domain: guides.spring.io
+  path: build/libs/rest-service--greeting-0.1.0.jar
